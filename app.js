@@ -1,0 +1,66 @@
+const thezecret = require("./zecret")
+var encriptador = new thezecret.zecret()
+
+encriptador.alphabet =[
+    "00",
+    "59",
+    "92",
+    "77",
+    "94",
+    "68",
+    "37",
+    "74",
+    "67",
+    "55",
+    "20",
+    "86",
+    "74",
+    "57",
+    "10",
+    "33",
+    "23",
+    "88",
+    "36",
+    "10",
+    "34",
+    "38",
+    "18",
+    "61",
+    "58",
+    "99",
+    "69",
+    "22"
+]
+encriptador.alphabetClave =[
+    " ",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "ñ",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z"
+]
+
+encriptador.mensaje = "hola a todos"
+encriptador.transpilation(true)
